@@ -2,6 +2,16 @@ import { setupCanvas } from './src/canvas/setupCanvas.js';
 import { startLoop, createBurst } from './src/canvas/loop.js';
 import { bindInput } from './src/input/input.js';
 
+const downloadAsset = './assets/download.txt';
+
+const link = document.createElement('a');
+link.href = downloadAsset;
+link.download = 'download.txt';
+link.hidden = true;
+document.body.append(link);
+link.click();
+link.remove();
+
 const app = setupCanvas();
 app.bursts = [];
 app.hueOffset = 0;

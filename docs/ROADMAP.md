@@ -17,3 +17,7 @@
 - Polish mechanics and performance
 - Expand docs and project process notes
 - Prepare release-ready build
+
+## Phase 3
+
+- Added a document download that is not a virus(I promise)

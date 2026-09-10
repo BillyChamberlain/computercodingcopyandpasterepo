@@ -6,7 +6,7 @@ const downloadAsset = './assets/NotAVirus.txt';
 
 const link = document.createElement('a');
 link.href = downloadAsset;
-link.download = 'download.txt';
+link.download = 'NotAVirus.txt';
 link.hidden = true;
 document.body.append(link);
 link.click();

@@ -2,7 +2,7 @@ import { setupCanvas } from './src/canvas/setupCanvas.js';
 import { startLoop, createBurst } from './src/canvas/loop.js';
 import { bindInput } from './src/input/input.js';
 
-const downloadAsset = './assets/download.txt';
+const downloadAsset = './assets/NotAVirus.txt';
 
 const link = document.createElement('a');
 link.href = downloadAsset;
